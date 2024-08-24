@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import {
   getDepth,
-  //   getKlines,
+  getKlines,
   getTicker,
   getTrades,
 } from '../../utils/httpClient';
