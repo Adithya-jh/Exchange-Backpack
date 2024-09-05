@@ -4,7 +4,8 @@ import { SwapUI } from '@/app/components/SwapUI';
 import { TradeView } from '@/app/components/TradeView';
 import { Depth } from '@/app/components/depth/Depth';
 import { useParams } from 'next/navigation';
-//
+//def
+
 export default function Page() {
   const { market } = useParams();
   return (
